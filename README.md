@@ -11,27 +11,33 @@ The dumb grid is a simple 12 column grid. Each column is a fraction of it's pare
 
 dumb.dumb-1-1 
 
-->dumb.dumb-1-3 
+>dumb.dumb-1-3 
 
-->dumb.dumb-1-3 
+>dumb.dumb-1-3 
 
-->dumb.dumb-1-3 
+>dumb.dumb-1-3 
 
 This would result in a parent container with three columns.Each 33% width.
 
 dumb.dumb-1-1
-->dumb.dumb-1-2
-->dumb.dumb-1-2
+
+>dumb.dumb-1-2
+
+>dumb.dumb-1-2
 
 This would result in a a parent container with two columns. Each 50% width.
 
 The dumb grid as it is contains no margins or padding so nest elements behave exactly how you would expect. For example:
 
 dumb.dumb-1-1
-->dumb.dumb-1-2
-->->dumb.dumb-1-1
-->->dumb.dumb-1-1
-->dumb.dumb-1-2
+
+>dumb.dumb-1-2
+
+>>dumb.dumb-1-1
+
+>>dumb.dumb-1-1
+
+>dumb.dumb-1-2
 
 This would result in a parent container with two columns. Each 50% width. The left column however contains two columns. Both of wich are 50%.
 
