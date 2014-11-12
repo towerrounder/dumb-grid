@@ -9,10 +9,10 @@ Get started
 
 The dumb grid is a simple 12 column grid. Each column is a fraction of it's parent container. Take for example the below layout:
 
-dumb.dumb-1-1
-dumb.dumb-1-3
-dumb.dumb-1-3
-dumb.dumb-1-3
+dumb.dumb-1-1 
+dumb.dumb-1-3 
+dumb.dumb-1-3 
+dumb.dumb-1-3 
 
 This would result in a parent container with three columns.Each 33% width.
 
