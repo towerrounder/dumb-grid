@@ -1,4 +1,4 @@
 dumb-grid
 =========
 
-A plain simple dumb grid. Does everything a simple grid should do and nothing else.
+A dumb grid that behaves exactly the way you tell it to. It does nothing it isnt supposed to do and does everything it needs to do.
